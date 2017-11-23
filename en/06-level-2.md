@@ -7,7 +7,7 @@
  Add this to your button sprite 
 
  ![](assets/level2.png)
- These all need to be set by the programmer, so if you add a third level, don’t forget to change “max-level”!
+ These all need to be set by the programmer, so if you add a third level, don’t forget to change `max-level`!
  * `max-level` is the highest level
  * `min-level` is the lowest level
  * `current-level` is the level the player is on right now
@@ -15,20 +15,20 @@
  ![](assets/level3.png)
  This uses broadcasts to tell the other sprites which level to display, and to clear up the collectables.
 
-4. Now you need to get the other sprites to respond to those broadcasts! Start with the easy one: clearing all the collectables. If you just tell them to hide, all the existing clones will. So add this to the “collectable” sprite: ![](assets/level4.png)
+4. Now you need to get the other sprites to respond to those broadcasts! Start with the easy one: clearing all the collectables. If you just tell them to `hide`, all the existing clones will. So add this to the “collectable” sprite: ![](assets/level4.png)
 
  Since one of the first things any new clone already does is show itself, that means you don’t even have to worry about turning this off for them!
 
-5. Now to switch the “platforms” sprite! You can design your own new level later, if you like, but for now let’s use the one I’ve already included (you’ll see why on the next card!).
+5. Now to switch the “platforms” sprite! You can design your own new level later, if you like, but for now let’s use the one I’ve already included \(you’ll see why on the next card!\).
 
- You just need this code to take the messages sent out by joining the “level-“ and the “current-level” variable and use them to change the “platforms” costume. ![](assets/level5.png)
+ You just need this code to take the messages sent out by **joining** the `level-` and the `current-level` variable and use them to change the “platforms” costume. ![](assets/level5.png)
 
- 6. For the “Enemy” sprite, you just need to make sure it disappears on level 2 (or move it to another platform!), like this: ![](assets/level6.png)
+ 6. For the “Enemy” sprite, you just need to make sure it disappears on level 2 \(or move it to another platform!\), like this: ![](assets/level6.png)
 
- 7. Finally, the player character needs to separate out the coordinates from the “reset character” more block, so the character goes to the right place, and call the first level when the game starts. ![](assets/level7.png)
+ 7. Finally, the player character needs to separate out the coordinates from the `reset character` **more block**, so the character goes to the right place, and call the first level when the game starts. ![](assets/level7.png)
  Notice the highlighted blocks. Here's what they do:
- * Set starting coordinates and call “reset-character”
- * Use variable starting coordinates instead of fixed x and y cordinates
- * Use the broadcast of the “min-level” to reset the character and game
+ * Set starting coordinates and **call** `reset-character`
+ * Use variable starting coordinates instead of fixed **x** and **y** cordinates
+ * Use the broadcast of the `min-level` to reset the character and game
 
  
