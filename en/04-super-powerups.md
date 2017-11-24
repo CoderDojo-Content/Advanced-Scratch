@@ -12,7 +12,9 @@
 
 3. Now you have that broadcast block ready, but it’s not being used yet. This next part’s easy. Just update `react-to-player` to look like this, so it broadcasts `collectable-rain` when the player touches a type `2` powerup. ![](assets/super3.png)
 
-4. **Get Creative!** Based on this card and the previous one, you can now make as many powerups as you want! 
+4. **Get Creative!** 
+ 
+ Based on this card and the previous one, you can now make as many powerups as you want! 
 
  What about one that gives out 20 times the usual number of points, adds three lives, or maybe means the player can’t run out of lives while it’s on?
 

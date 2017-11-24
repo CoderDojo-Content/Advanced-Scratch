@@ -8,8 +8,9 @@
 
 3. Now you need to write the code for what the enemy does. You can use mine from this card, but don’t be afraid to add more! What if they teleport around to different platforms? Or what if there’s a powerup that makes them move faster, or slower? ![](assets/comp3.png)
 
- * If you just drag the `go to` block and don’t change the x & y values, they’ll be the values for the current location of the sprite!
- * The code in the `if.. then` block will make the enemy turn around when they get to the end of the platform!
+ If you just drag the `go to` block and don’t change the x & y values, they’ll be the values for the current location of the sprite!
+ 
+ The code in the `if.. then` block will make the enemy turn around when they get to the end of the platform!
 
 4. The next thing you’ll need is for the player to lose a life when they touch the enemy. You need to make sure they _stop_ touching really quickly, though, since otherwise the touching code will keep running and they’ll keep losing lives. Here's how I did it, though feel free to try to improve on it! I modified the “Player Character” sprite’s main block. ![](assets/comp4modified.png)
 
