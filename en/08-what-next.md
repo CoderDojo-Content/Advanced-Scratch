@@ -11,7 +11,6 @@
   * More lives
   * Bigger player character
   * Smaller player character
-
  
  **Scrolling Levels!**
 
@@ -40,11 +39,7 @@
  
  **Different Characters!**
 
- Let the player pick a character. Make them different in things like size, how high they jump, maybe even how many lives they have and points they get from collectables! 
-
-![](whitespace_70_800.png)
-
- ![](assets/next1.png) ![](whitespace_70_800.png)
+ Let the player pick a character. Make them different in things like size, how high they jump, maybe even how many lives they have and points they get from collectables! ![](assets/whitespace_70_800.png) ![](assets/zero.png) ![](assets/whitespace_70_800.png) ![](assets/whitespace_70_800.png)
 
 {% callout heading="Tell us what you thought!" %}<span style="color: #000000;">Go to <b>http://dojo.soy/advanced-scratch-end</b> and let us know if you had fun with these Sushi Cards and what you’d like to see in future! </span>
 {% endcallout %}
