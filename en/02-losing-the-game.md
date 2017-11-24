@@ -1,8 +1,6 @@
 1. You may have noticed that the `lose` **more block**  on the “Player Character” sprite is empty. You’re going to fill this in and setup all the pieces needed for a nice “Game Over” screen.
 
-First, complete the `lose` block: 
-
-![](assets/losing.png)
+ First, complete the `lose` block: ![](assets/losing1.png)
 
  * Stop the physics and other game scripts on the Player Character
  * Tell all the other sprites that the game is over, by **broadcasting** a message so they can change based on that
@@ -18,9 +16,8 @@ First, complete the `lose` block:
 
  Let’s look at how the “Collectable” sprite works: ![](assets/losing3.png)
 
- * Make the original collectable invisible
- * Setup the control variables. We’ll come back to these later.
- * The `create-collectables` variable is the on/off switch for cloning
- * The loop creates clones if `create-collectables` is true, and does nothing if it’s not
+ * First it makes the original collectable invisible
+ * Then it sets up the control variables. We’ll come back to these later.
+ * The `create-collectables` variable is the on/off switch for cloning: the loop creates clones if `create-collectables` is `true`, and does nothing if it’s not
 
 4. Now what you need to do is setup a block like the ones you had on the “Edges” and “Platforms” sprites on the “Collectable” sprite. The only difference is you’re also setting the `create-collectables` variable to `false` so that no new clones are created. Notice how you can use the variable to pass messages from one part of your code to another! ![](assets/losing4.png)

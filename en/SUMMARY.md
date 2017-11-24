@@ -1,6 +1,6 @@
 #Summary
 
-* [Setting things up](01-setting-things-up.md)
+* [Setting things up](README.md)
 * [Losing the game](02-losing-the-game.md)
 * [Powerups](03-powerups.md)
 * [Super powerups!](04-super-powerups.md)

@@ -6,8 +6,8 @@
 
 4. The clone’s code is simple: Move up to the top of the screen, slowly enough for the player to jump on and off, and then disappear. ![](assets/moving3.png)
 
-5. You need to make the platforms disappear/reappear based on the level changing and on the `game over` event. ![](assets/moving4.png)
+5. You need to make the platforms disappear/reappear based on the level changing events and on the `game over` event. ![](assets/moving4.png)
 
 6. Now, if you try to actually play the game, the Player Character falls through the platform! Any idea why? 
- It’s because the physics code doesn’t know about the platform. It’s actually an easy fix: Go through the code on the “Player Character” sprite and replace every `touching “Platforms”` with an `OR` operator, where you check for **either** `touching “Platforms”` **OR** `touching “Moving Platform”` ![](assets.moving5.png)
+ It’s because the physics code doesn’t know about the platform. It’s actually an easy fix: Go through the code on the “Player Character” sprite and replace every `touching “Platforms”` with an `OR` operator, where you check for **either** `touching “Platforms”` **OR** `touching “Moving Platform”` ![](assets/moving5.png)
 
