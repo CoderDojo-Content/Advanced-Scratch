@@ -21,9 +21,9 @@
 
  You just need this code to take the messages sent out by **joining** the `level-` and the `current-level` variable and use them to change the “platforms” costume. ![](assets/level5.png)
 
- 6. For the “Enemy” sprite, you just need to make sure it disappears on level 2 \(or move it to another platform!\), like this: ![](assets/level6.png)
+6. For the “Enemy” sprite, you just need to make sure it disappears on level 2 \(or move it to another platform!\), like this: ![](assets/level6.png)
 
- 7. Finally, the player character needs to separate out the coordinates from the `reset character` **more block**, so the character goes to the right place, and call the first level when the game starts. ![](assets/level7.png)
+7. Finally, the player character needs to separate out the coordinates from the `reset character` **more block**, so the character goes to the right place, and call the first level when the game starts. ![](assets/level7.png)
  
  Notice the code blocks highlighted in boxes. Here's what they do:
  * Set starting coordinates and **call** `reset-character`
