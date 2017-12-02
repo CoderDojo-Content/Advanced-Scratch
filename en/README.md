@@ -8,7 +8,7 @@
 
 3. Pierwszym krokiem jest skopiowanie skryptu z projektu [dojo.soy/advanced-scratch](http://dojo.soy/advanced-scratch).
 
-   You can download this code by clicking “See Inside”, then the **File** menu and then “Download to your computer” and then open it in Scratch on your computer.
+   Możesz pobrać ten skrypt klikając "Zajrzyj do środka", następnie **Plik **w pasku zadań, wybierz "Pobierz na swój komputer", a na końcu otwórz ten projekt na swoim komputerze. 
 
    You can use it directly in Scratch in your browser by just clicking “See Inside” and then “Remix”.
 
