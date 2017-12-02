@@ -18,11 +18,11 @@
 
    Teraz, spójrz jak skrypty są połączone ze sobą. Użyto zostało wiele **"Więcej bloków"**, które można podzielić na mniejsze, bardziej zrozumiałe części. To jak mieć jeden blok stworzony z wielu innych podstawowych bloków.
 
-   ![](/assets/image3417.png)
+   ![](/assets/image3379.png)
 
-   * Główna pętla gry - pętla zawsze wywołuje blok reset-gra, który wykonuje wiele rzeczy! Gdy mamy je osobno skrypt jest przejrzystszy, bardziej czytelny i łatwiej zrozumieć co się **kiedy **dzieje nie martwiąc się **jak **to się dzieje.
+   * Główna pętla gry - pętla zawsze wywołuje blok główna fizyka, który wykonuje wiele rzeczy! Gdy mamy je osobno skrypt jest przejrzystszy, bardziej czytelny i łatwiej zrozumieć co się **kiedy **dzieje nie martwiąc się **jak **to się dzieje.
 
-5. Now look at `reset game` and `reset character` and notice:
+5. Teraz spójrz na Now look at `reset game` and `reset character` and notice:
 
    * They do pretty normal things—setting up variables, making sure the character rotates properly
    * `reset-game` **calls** `reset-character`—you can use a **more block** inside another **more block**!
