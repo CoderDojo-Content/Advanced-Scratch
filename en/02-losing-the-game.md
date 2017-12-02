@@ -1,4 +1,4 @@
-1. Pewnie zauważyłaś/-eś, że blok You may have noticed that the `lose` **more block**  on the “Player Character” sprite is empty. You’re going to fill this in and setup all the pieces needed for a nice “Game Over” screen.
+1. Pewnie zauważyłaś/-eś, że blok "przegrana" w skrypcie bohatera jest pusty. Zaraz go uzupełnisz i dodasz wszystkie potrzebne bloki aby stworzyć ładny ekran informujący o końcu gry. 
 
    First, complete the `lose` block: ![](assets/losing1.png)
 
