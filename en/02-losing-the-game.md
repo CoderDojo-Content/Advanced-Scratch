@@ -1,4 +1,4 @@
-1. Pewnie zauważyłaś/-eś, że blok "przegrana" w skrypcie bohatera jest pusty. Zaraz go uzupełnisz i dodasz wszystkie potrzebne bloki aby stworzyć ładny ekran informujący o końcu gry.
+1. Pewnie zauważyłaś/-eś, że blok "przegrana" w skrypcie bohatera jest pusty. Zaraz go uzupełnisz i dodasz wszystkie potrzebne bloki aby stworzyć infromację o końcu gry.
 
    Najpierw, uzupełnij blok "przegrana":   ![](/assets/ScreenHunter_003.bmp)
 
