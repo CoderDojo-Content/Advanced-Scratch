@@ -1,29 +1,32 @@
-1. These are the Advanced Scratch Sushi Cards, and in them you’ll be making a platform-style game which you can later add your own levels, powers and characters to.
+1. To są karty Sushi z zadaniem na zaawansowanym poziomie Scratcha. Pracując z nimi będziesz tworzyć grę platformową, do której będziesz mógł dodawać swoje poziomy, power-upy i bohaterów.
 
- ![](assets/setup1.png)
+   ![](assets/setup1.png)
 
- Because you’re learning Scratch and not how to build a physics engine (code that makes things behave at least a little like the real world—e.g. not falling through floors), you’ll be starting with a project I’ve created that already has the basics of movement, jumping and detecting platforms built in.
+2. Ponieważ uczysz się Scratcha a nie jak zbudować silnik oparty na fizyce \(kod, który sprawia, że rzeczy "zachowują się" jak w rzeczywistości, np. nie  przelatują przez ściany czy podłogi\), zaczniesz projekt kopiując gotowy skrypt, który zawiera podstawowe ruchy, skakanie i wykrywanie platform.
 
- You should take a quick look at it including the details on this card, since you’ll be making some changes to it later, but you don’t need to understand everything it’s doing.
+   Spójrz na ten skrypt gdyż później będziesz dokonywał w nich zmian jednak nie musisz rozumieć wszystkiego co skrypt wykonuje.
 
-2. The first thing you’ll need to do is to get a copy of the code from [dojo.soy/advanced-scratch](http://dojo.soy/advanced-scratch) 
+3. Pierwszym krokiem jest skopiowanie skryptu z projektu [https://scratch.mit.edu/projects/190426520/\#player](https://scratch.mit.edu/projects/190426520/#player "CoderDojo Zaawansowany Scratch Starter PL").
 
- You can download this code by clicking “See Inside”, then the **File** menu and then “Download to your computer” and then open it in Scratch on your computer.
+   Możesz pobrać ten skrypt klikając "Zajrzyj do środka", następnie **Plik **w pasku zadań, wybierz "Pobierz na swój komputer", a na końcu otwórz ten projekt na swoim komputerze.
 
- You can use it directly in Scratch in your browser by just clicking “See Inside” and then “Remix”.
+   Możesz użyć projektu bezpośrednio w swojej przeglądarce klikając "Zajrzyj do środka", a następnie "Remiks".
 
-3. The physics engine of the game has a variety of pieces in it, some of which work right now and some of which don’t. You can find out which by running the game and trying to play it.
+4. Silnik fizyki gry składa się z różnorodnych części. Niektóre z nich już działają na tym etapie, a niektóre nie. Działanie skryptów możesz sprawdzić uruchamiając grę i próbując w nią zagrać.
 
- You can lose lives, but nothing happens when you run out. Also, the game has only got one level, one type of thing to collect and  no enemies. You’re going to fix all of that, and a bit more!
+   Możesz tracić życia ale nic się nie dzieje jeśli stracisz je wszystkie. Ponadto, gra ma tylko jeden poziom, jeden typ rzeczy, które można zebrać i nie ma przeciwników. Naprawisz to wszystko i zrobisz jeszcze więcej!
 
- For now, take a look at how the code is put together. It uses lots of **more blocks**, which are great for splitting your code up into pieces so you can manage it better. It’s like having a block made up of a lot of other blocks, which you can give some basic instructions to.
+   Teraz, spójrz jak skrypty są połączone ze sobą. Użyto zostało wiele **"Więcej bloków"**, które można podzielić na mniejsze, bardziej zrozumiałe części. To jak mieć jeden blok stworzony z wielu innych podstawowych bloków.
 
- ![](assets/setup2and3.png)
+   ![](/assets/sdfsdfsd.png)
 
- * The main game `forever` loop calls the `main-physics` block to do a whole lot of stuff! Keeping them separated like this makes it easy to read the main loop and understand what happens when, without worrying about _how_ it happens.
- 
+   * Główna pętla gry - pętla zawsze wywołuje blok główna fizyka, który wykonuje wiele rzeczy! Gdy mamy je osobno skrypt jest przejrzystszy, bardziej czytelny i łatwiej zrozumieć co się **kiedy **dzieje nie martwiąc się **jak **to się dzieje.
 
-4. Now look at `reset game` and `reset character` and notice:
- * They do pretty normal things—setting up variables, making sure the character rotates properly
- * `reset-game` **calls** `reset-character`—you can use a **more block** inside another **more block**!
- * `reset-character` gets used in two different places, but to change it you only have to change the code of the **more block** in one! This can save you a lot of work and help you avoid mistakes.
+5. Teraz spójrz na reset-gra i reset-bohater i zauważ, że:
+
+   * robią normalne rzeczy - ustawiają zmienne, upewniając się, że bohater obraca się poprawnie
+   * reset-gra **wywołuje **reset-bohater— możesz używać **"Więcej bloków" **wewnątrz **"Więcej bloków" **! 
+   * reset-bohater jest używany w dwóch różnych miejscach ale jeśli chcesz go zmienić to wystarczy dokonać zmian w **"definiuj reset-bohater". **Pozwala to zaoszczędzić dużo czasu i uniknąć pomyłek.
+
+
+
