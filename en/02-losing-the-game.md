@@ -2,9 +2,9 @@
 
    Najpierw, uzupełnij blok "przegrana":   ![](/assets/ScreenHunter_003.bmp)
 
-   * Stop the physics and other game scripts on the Player Character
-   * Tell all the other sprites that the game is over, by **broadcasting** a message so they can change based on that
-   * Move the Player Character to the centre of the screen and have them tell the player the game is over
+   * Zatrzymaj fizykę i wszystkie inne skrypty Bohatera
+   * Powiedz wszystkim innym duszkom o końcu gry poprzez **nadanie komunikatu**
+   * Przesuń Bohatera na środek ekranu i spraw by powiedział graczowi, że gra się skończyła
 
 2. Now you need to make sure all the sprites know what to do when the game is over, and how to reset themselves when the player starts a new game. **Don’t forget that any new sprites you add may need code for this too!**
 
