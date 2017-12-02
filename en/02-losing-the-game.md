@@ -18,9 +18,9 @@
 
    * Najpierw ukrywa oryginał duszka "Zbierane\_rzeczy"
    * Następnie ustawia wartość zmiennych sterujących. Wrócimy do tego później.
-   * The `create-collectables` variable is the on/off switch for cloning: the loop creates clones if `create-collectables` is `true`, and does nothing if it’s not
+   * Zmienna "stwórz\_rzecz" włącza i wyłącza klonowanie: pętla tworzy klony jeżeli zmienna "stwórz\_rzecz" jest równa prawda. Jeżeli ta zmienna nie jest równa prawda pętla nie robi nic.
 
-4. Now what you need to do is setup a block like the ones you had on the “Edges” and “Platforms” sprites on the “Collectable” sprite. The only difference is you’re also setting the `create-collectables` variable to `false` so that no new clones are created. Notice how you can use the variable to pass messages from one part of your code to another! ![](assets/losing4.png)
+4. Teraz musisz stworzyć skrypt końca gry dla duszka "Zbierane\_rzeczy", podobny do tego jaki dodałaś/-eś do duszków "Krawędzie" i "Platformy". Jedyną różnicą jest fakt, iż należy zmienić wartość zmiennej "stwórz\_rzecz" na fałsz aby nowe klony rzeczy do zbierania się już nie tworzyły. Jest to przykład jak można wykorzystywać  zmienne aby nadać wiadomość z jednej części kodu do innego! ![](/assets/ScreenHunter_009.bmp)
 
 
 
