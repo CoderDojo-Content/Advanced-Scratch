@@ -6,9 +6,9 @@
    * Powiedz wszystkim innym duszkom o końcu gry poprzez **nadanie komunikatu**
    * Przesuń Bohatera na środek ekranu i spraw by powiedział graczowi, że gra się skończyła
 
-2. Now you need to make sure all the sprites know what to do when the game is over, and how to reset themselves when the player starts a new game. **Don’t forget that any new sprites you add may need code for this too!**
+2. Teraz musisz się upewnić, że wszystkie duszki wiedzą co zrobić gdy gra się skończy i jak mają się zresetować gdy gracz postanowi rozpocząć nową grę. **Nie zapomnij o dodaniu tego skryptu do każdego duszka, którego dodasz gdy będziesz rozwijał/-a swoją grę!**
 
-   Start with the easy ones, the “Platforms” and “Edges” sprites both need code for appearing when the game starts and disappearing at game over. ![](assets/losing2.png)
+   Rozpocznij od tych łatwych duszków: "Platformy" i "Krawędzie". Oba te duszki muszą pojawiać się na początku gry i znikać na końcu.  ![](/assets/ScreenHunter_004.bmp)
 
 3. Now, for something a little more tricky! If you look at the code for the “Collectable” sprite, you’ll see it works by **cloning** itself. That is, it makes copies of itself, which follow the special `when I start as a clone` instructions.
 
