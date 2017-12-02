@@ -6,7 +6,7 @@
 
    Spójrz na ten skrypt gdyż później będziesz dokonywał w nich zmian jednak nie musisz rozumieć wszystkiego co skrypt wykonuje.
 
-3. The first thing you’ll need to do is to get a copy of the code from [dojo.soy/advanced-scratch](http://dojo.soy/advanced-scratch)
+3. Pierwszym krokiem jest skopiowanie skryptu z projektu [dojo.soy/advanced-scratch](http://dojo.soy/advanced-scratch).
 
    You can download this code by clicking “See Inside”, then the **File** menu and then “Download to your computer” and then open it in Scratch on your computer.
 
