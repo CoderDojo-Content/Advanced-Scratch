@@ -16,8 +16,8 @@
 
    Spójrzmy jak działa duszek "Zbierane\_rzeczy": ![](/assets/ScreenHunter_008.bmp)
 
-   * First it makes the original collectable invisible
-   * Then it sets up the control variables. We’ll come back to these later.
+   * Najpierw ukrywa oryginał duszka "Zbierane\_rzeczy"
+   * Następnie ustawia wartość zmiennych sterujących. Wrócimy do tego później.
    * The `create-collectables` variable is the on/off switch for cloning: the loop creates clones if `create-collectables` is `true`, and does nothing if it’s not
 
 4. Now what you need to do is setup a block like the ones you had on the “Edges” and “Platforms” sprites on the “Collectable” sprite. The only difference is you’re also setting the `create-collectables` variable to `false` so that no new clones are created. Notice how you can use the variable to pass messages from one part of your code to another! ![](assets/losing4.png)
