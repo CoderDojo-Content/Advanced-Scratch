@@ -22,10 +22,10 @@
 
    * Główna pętla gry - pętla zawsze wywołuje blok główna fizyka, który wykonuje wiele rzeczy! Gdy mamy je osobno skrypt jest przejrzystszy, bardziej czytelny i łatwiej zrozumieć co się **kiedy **dzieje nie martwiąc się **jak **to się dzieje.
 
-5. Teraz spójrz na Now look at `reset game` and `reset character` and notice:
+5. Teraz spójrz na reset-gra i reset-bohater i zauważ, że:
 
-   * They do pretty normal things—setting up variables, making sure the character rotates properly
-   * `reset-game` **calls** `reset-character`—you can use a **more block** inside another **more block**!
+   * robią normalne rzeczy - ustawiają zmienne, upewniając się, że bohater obraca się poprawniey
+   * reset-gra **wywołuje **reset-bohater— możesz używać **"Więcej bloków" **wewnątrz **"Więcej bloków" **! 
    * `reset-character` gets used in two different places, but to change it you only have to change the code of the **more block** in one! This can save you a lot of work and help you avoid mistakes.
 
 
