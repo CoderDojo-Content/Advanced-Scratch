@@ -10,9 +10,9 @@
 
    Rozpocznij od tych łatwych duszków: "Platformy" i "Krawędzie". Oba te duszki muszą pojawiać się na początku gry i znikać na końcu.  ![](/assets/ScreenHunter_004.bmp)
 
-3. Now, for something a little more tricky! If you look at the code for the “Collectable” sprite, you’ll see it works by **cloning** itself. That is, it makes copies of itself, which follow the special `when I start as a clone` instructions.
+3. Kolej na coś bardziej przebiegłego :-\). Jeżeli spojrzysz na kod dla duszka "Zbierane\_rzeczy" zauważysz, że **klonuje **sam siebie. Innymi słowy, tworzy kopie samego siebie a następnie wykonuje instrukcje podczepione do bloku "kiedy zaczynam jako klon".
 
-   We’ll talk more about what makes clones special when we get to the card about making new and different collectables, but for now what you need to know is that clones can do _almost_ everything a normal sprite can, including receiving `broadcast` messages.
+   Będziemy mówić więcej co sprawia, że klony są wyjątkowe kiedy dotrzemy do karty sushi o robieniu nowych rzeczy do zbierania. Narazie, musisz wiedzieć, że klony mogą prawie wszystko to co standardowy duszek potrafi, właczając w to nadawanie komunikatów.
 
    Let’s look at how the “Collectable” sprite works: ![](assets/losing3.png)
 
