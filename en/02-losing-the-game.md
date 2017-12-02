@@ -1,6 +1,6 @@
-1. Pewnie zauważyłaś/-eś, że blok "przegrana" w skrypcie bohatera jest pusty. Zaraz go uzupełnisz i dodasz wszystkie potrzebne bloki aby stworzyć ładny ekran informujący o końcu gry. 
+1. Pewnie zauważyłaś/-eś, że blok "przegrana" w skrypcie bohatera jest pusty. Zaraz go uzupełnisz i dodasz wszystkie potrzebne bloki aby stworzyć ładny ekran informujący o końcu gry.
 
-   First, complete the `lose` block: ![](assets/losing1.png)
+   Najpierw, uzupełnij blok "przegrana":   ![](/assets/ScreenHunter_003.bmp)
 
    * Stop the physics and other game scripts on the Player Character
    * Tell all the other sprites that the game is over, by **broadcasting** a message so they can change based on that
