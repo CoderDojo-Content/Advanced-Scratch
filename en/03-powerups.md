@@ -1,6 +1,6 @@
 1. W projekcie, nad którym pracujesz znajduje się już rzecz do zbierania. Jest to gwiazdka. Jeśli się ją weźmie, dostaje się 1 punkt. To trochę nudne..
 
-   Z pomocą tej karty stworzysz nowy typ rzeczy do zbierania przez gracza i zrobisz to w taki sposób, który sprawi, że dodawanie innych rzeczy będzie prostsze tak abyś w przyszłości mógł dodawać swoje power upy i bonusy. 
+   Z pomocą tej karty stworzysz nowy typ rzeczy do zbierania przez gracza i zrobisz to w taki sposób, który sprawi, że dodawanie innych rzeczy będzie prostsze tak abyś w przyszłości mógł dodawać swoje power upy i bonusy.
 
 2. Dodaj nowy kostium do "Zbierane\_rzeczy", który będzie reprezentował nowego power upa. Mi podoba się błyskawica ale Ty możesz wybrać co tylko Ci się podoba.
 
