@@ -16,7 +16,7 @@
 
    Możesz tracić życia ale nic się nie dzieje jeśli stracisz je wszystkie. Ponadto, gra ma tylko jeden poziom, jeden typ rzeczy, które można zebrać i nie ma przeciwników. Naprawisz to wszystko i zrobisz jeszcze więcej!
 
-   For now, take a look at how the code is put together. It uses lots of **more blocks**, which are great for splitting your code up into pieces so you can manage it better. It’s like having a block made up of a lot of other blocks, which you can give some basic instructions to.
+   Teraz, spójrz jak skrypty są połączone ze sobą. Użyto zostało wiele **"Więcej bloków"**, które można podzielić na mniejsze, bardziej zrozumiałe części. To jak mieć jeden blok stworzony z wielu innych podstawowych bloków. 
 
    ![](assets/setup2and3.png)
 
