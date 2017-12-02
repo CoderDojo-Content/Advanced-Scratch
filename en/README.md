@@ -14,7 +14,7 @@
 
 4. Silnik fizyki gry składa się z różnorodnych części. Niektóre z nich już działają na tym etapie, a niektóre nie. Działanie skryptów możesz sprawdzić uruchamiając grę i próbując w nią zagrać.
 
-   You can lose lives, but nothing happens when you run out. Also, the game has only got one level, one type of thing to collect and  no enemies. You’re going to fix all of that, and a bit more!
+   Możesz tracić życia ale nic się nie dzieje jeśli stracisz je wszystkie. Ponadto, gra ma tylko jeden poziom, jeden typ rzeczy, które można zebrać i nie ma przeciwników. Naprawisz to wszystko i zrobisz jeszcze więcej!
 
    For now, take a look at how the code is put together. It uses lots of **more blocks**, which are great for splitting your code up into pieces so you can manage it better. It’s like having a block made up of a lot of other blocks, which you can give some basic instructions to.
 
