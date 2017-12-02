@@ -12,7 +12,7 @@
 
    Możesz użyć projekt bezpośrednio w swojej przeglądarce klikając "Zajrzyj do środka", a następnie "Remiks".
 
-4. The physics engine of the game has a variety of pieces in it, some of which work right now and some of which don’t. You can find out which by running the game and trying to play it.
+4. Silnik fizyki gry składa się z różnorodnych części. Niektóre z nich już działają na tym etapie, a niektóre nie. Działanie skryptów możesz sprawdzić uruchamiając grę i próbując w nią zagrać.
 
    You can lose lives, but nothing happens when you run out. Also, the game has only got one level, one type of thing to collect and  no enemies. You’re going to fix all of that, and a bit more!
 
