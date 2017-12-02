@@ -14,7 +14,7 @@
 
    Będziemy mówić więcej co sprawia, że klony są wyjątkowe kiedy dotrzemy do karty sushi o robieniu nowych rzeczy do zbierania. Narazie, musisz wiedzieć, że klony mogą prawie wszystko to co standardowy duszek potrafi, właczając w to nadawanie komunikatów.
 
-   Let’s look at how the “Collectable” sprite works: ![](assets/losing3.png)
+   Spójrzmy jak działa duszek "Zbierane\_rzeczy": ![](/assets/ScreenHunter_008.bmp)
 
    * First it makes the original collectable invisible
    * Then it sets up the control variables. We’ll come back to these later.
