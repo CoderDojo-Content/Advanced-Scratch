@@ -9,3 +9,4 @@
 * [Polskie](pl/)
 * [Română](ro/)
 * [Sovenčina](sk/)
+* [Čeština](cs/)
