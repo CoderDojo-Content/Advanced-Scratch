@@ -26,7 +26,7 @@
 
    * robią normalne rzeczy - ustawiają zmienne, upewniając się, że bohater obraca się poprawniey
    * reset-gra **wywołuje **reset-bohater— możesz używać **"Więcej bloków" **wewnątrz **"Więcej bloków" **! 
-   * `reset-character` gets used in two different places, but to change it you only have to change the code of the **more block** in one! This can save you a lot of work and help you avoid mistakes.
+   * reset-bohater jest używany w dwóch różnych miejscach ale jeśli chcesz go zmienić to wystarczy dokonać zmian w **"definiuj reset-bohater". **Pozwala to zaoszczędzić dużo czasu i uniknąć pomyłek.
 
 
 
