@@ -10,7 +10,7 @@
 
    Możesz pobrać ten skrypt klikając "Zajrzyj do środka", następnie **Plik **w pasku zadań, wybierz "Pobierz na swój komputer", a na końcu otwórz ten projekt na swoim komputerze.
 
-   Możesz użyć projekt bezpośrednio w swojej przeglądarce klikając "Zajrzyj do środka", a następnie "Remiks".
+   Możesz użyć projektu bezpośrednio w swojej przeglądarce klikając "Zajrzyj do środka", a następnie "Remiks".
 
 4. Silnik fizyki gry składa się z różnorodnych części. Niektóre z nich już działają na tym etapie, a niektóre nie. Działanie skryptów możesz sprawdzić uruchamiając grę i próbując w nią zagrać.
 
