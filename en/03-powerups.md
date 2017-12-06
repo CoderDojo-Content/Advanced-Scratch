@@ -12,7 +12,7 @@
 
 5. Najpierw musisz ustawić typ rzeczy do zbierania. To po prostu liczba, którą używamy aby powiedzieć programowi, który kostium, jakie zasady, itp. powinien zastosować dla rzeczy do zbierania. Będziesz chciał aby liczba była wybierana losowo aby było ciekawiej. Poniższy przykład ustawia szansę na 1/50: ![](/assets/ScreenHunter_002.bmp)
 
-   **Pro Tip!**
+   **Przydatna rada !**
 
    There can be a different value set as the `collectable-type` for each clone. Think of it like creating a new copy of the variable on the main “collectable” sprite with the value that was in `collectable-type` the instant that clone was created. One of the things that makes clones special is that they cannot change the values of any variables they start with. They are effectively **constant** values.
 
