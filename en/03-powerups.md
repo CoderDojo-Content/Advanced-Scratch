@@ -10,7 +10,7 @@
 
 4. "rzecz-typ" jest **przekazywana** do "wybierz\_kostium" kiedy jest **wywoływana**, staje się zmienną "typ" i może być użyta wewnątrz **"Więcej bloków" **
 
-5. First, you need to set the collectable type. It’s just a number, used to tell the program what costume, rules etc. to use for the collectable. You’re going to want to pick it at random, to keep things interesting. This example gives a 1/50 chance: ![](assets/powerup2.png)
+5. Najpierw musisz ustawić typ rzeczy do zbierania. To po prostu liczba, którą używamy aby powiedzieć programowi, który kostium, jakie zasady, itp. powinien zastosować dla rzeczy do zbierania. Będziesz chciał aby liczba była wybierana losowo aby było ciekawiej. Poniższy przykład ustawia szansę na 1/50: ![](/assets/ScreenHunter_002.bmp)
 
    **Pro Tip!**
 
