@@ -24,7 +24,7 @@
 
 5. Teraz spójrz na reset-gra i reset-bohater i zauważ, że:
 
-   * robią normalne rzeczy - ustawiają zmienne, upewniając się, że bohater obraca się poprawniey
+   * robią normalne rzeczy - ustawiają zmienne, upewniając się, że bohater obraca się poprawnie
    * reset-gra **wywołuje **reset-bohater— możesz używać **"Więcej bloków" **wewnątrz **"Więcej bloków" **! 
    * reset-bohater jest używany w dwóch różnych miejscach ale jeśli chcesz go zmienić to wystarczy dokonać zmian w **"definiuj reset-bohater". **Pozwala to zaoszczędzić dużo czasu i uniknąć pomyłek.
 
