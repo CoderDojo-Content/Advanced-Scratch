@@ -14,9 +14,9 @@
 
    **Przydatna rada !**
 
-   There can be a different value set as the `collectable-type` for each clone. Think of it like creating a new copy of the variable on the main “collectable” sprite with the value that was in `collectable-type` the instant that clone was created. One of the things that makes clones special is that they cannot change the values of any variables they start with. They are effectively **constant** values.
+   Dla każdego klona typu rzeczy może być nadana inna wartość. Jednak musisz pamiętać, że klony nie mogą zmieniać wartości zmiennej,  z którą są stworzone. Zmienne te mają **stałą **wartość.
 
-6. Great! Now you’re setting a different value for the collectable type, but none of the code knows what to do with it yet!
+6. Świetnie! Nadajesz różną wartość typom rzeczy ale program jeszcze nie wie co z tym zrobić!
 
    First, just teach the `pick-costume` **more block** to set the new costume when it gets the new type, like this \(using whatever costume you picked\): ![](assets/powerup3.png)
 
