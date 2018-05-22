@@ -6,11 +6,11 @@ W projekcie, nad którym pracujesz znajduje się już rzecz do zbierania. Jest t
 
 3. Zauważ, że już umieściłem kilka bloków tak aby ułatwić Ci pracę. W projekcie znajdziesz już "rzecz-typ" i zdefiniowany blok "wybierz\_kostium". Twoim zadaniem będzie udoskonalenie skryptu.
 
-   ![](/assets/powerups1.png)
+   ![](/pl/assets/pl_powerups1.png)
 
 4. "rzecz-typ" jest **przekazywana** do "wybierz\_kostium" kiedy jest **wywoływana**, staje się zmienną "typ" i może być użyta wewnątrz **"Więcej bloków" **
 
-5. Najpierw musisz ustawić typ rzeczy do zbierania. To po prostu liczba, którą używamy aby powiedzieć programowi, który kostium, jakie zasady, itp. powinien zastosować dla rzeczy do zbierania. Będziesz chciał aby liczba była wybierana losowo aby było ciekawiej. Poniższy przykład ustawia szansę na 1/50: ![](/assets/powerups2.bmp)
+5. Najpierw musisz ustawić typ rzeczy do zbierania. To po prostu liczba, którą używamy aby powiedzieć programowi, który kostium, jakie zasady, itp. powinien zastosować dla rzeczy do zbierania. Będziesz chciał aby liczba była wybierana losowo aby było ciekawiej. Poniższy przykład ustawia szansę na 1/50: ![](/pl/assets/pl_powerups2.bmp)
 
    **Przydatna rada !**
 
